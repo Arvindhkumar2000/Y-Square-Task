@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Courier+Prime:ital@0;1&display=swap');
+body{
+    background-color: rgb(159, 248, 248);
+    font-family: 'Courier Prime', monospace;
+}
+.stopwatch{
+  width: 90%;
+  max-width: 600px;
+  background-size: cover;
+  background-position: center;
+  }
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.buttons img{
+     width: 70px;
+}
+.buttons :hover{
+    height: 90px;
+    width: 70px;
+}
